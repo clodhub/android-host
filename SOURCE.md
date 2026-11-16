@@ -10,6 +10,8 @@ Reference revision: `19905b75dbea89fbfd424d67fe26c81aaed0e018`. Recipe paths are
 - `app/src/main/res/drawable/ic_launcher_background.xml` and `ic_launcher_foreground.xml` -> `templates/app/src/main/res/drawable/`: the poker card artwork is kept as a placeholder icon; the adaptive icon file (`templates/ic_launcher.xml.template`) is the one `syncArt` wrote at lines 37-43, now fixed to the two drawables.
 - `implementation/android/settings.ts` is new (`generated-platform`): the template aepm renders at install. The `kotlinSerialization` option takes the serialization plugin lines of the recipe's `build.gradle.kts` files.
 - `implementation/android/render.ts` is new (settings validation, template filler, `renderAndroid`/`writeAndroid`/`writeWrapper`).
-- `implementation/android/wrapper/` is the recipe's Gradle wrapper (`gradlew`, `gradlew.bat`, `gradle/wrapper/gradle-wrapper.jar`), unchanged.
+- `implementation/android/wrapper/gradle/wrapper/gradle-wrapper.jar` is the Gradle 9.4.0 wrapper from `https://github.com/gradle/gradle`, SHA-256 `55243ef57851f12b070ad14f7f5bb8302daceeebc5bce5ece5fa6edb23e1145c`. Its embedded licence is `notices/gradle-wrapper/LICENSE`; the startup scripts retain their supplied copyright headers.
+- `implementation/android/dependencies/` contains the standalone consumer's Gradle-generated application/buildscript locks and SHA-256 verification records.
+- `implementation/android/vendor/xmldom/` contains the supplied `@xmldom/xmldom` 0.8.15 parser source and MIT licence; `component.json` binds its complete source inventory.
 
-Left behind: `gradlew`, `gradlew.bat` and `gradle-wrapper.jar` (binary and script), `gradle.lockfile`, `gradle/verification-metadata.xml`, `INSTRUMENTATION.md`, all screens, `TableViewModel.kt`, `Sound.kt`, the `net` package, string resources and sounds, and the tests under `app/src/test` and `app/src/androidTest`.
+Application screens, `TableViewModel.kt`, `Sound.kt`, the `net` package, string resources, sounds and application tests belong to the recipe.

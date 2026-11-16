@@ -1,5 +1,8 @@
 import { chmodSync, copyFileSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
+import { createRequire } from 'node:module';
+
+const { DOMParser } = createRequire(import.meta.url)('./vendor/xmldom');
 
 // Build-time rendering of the Android Gradle project files from typed settings.
 
@@ -143,13 +146,86 @@ export function writeAndroid(directory: string, files: Record<string, string>): 
   }
 }
 
-// The Gradle wrapper (gradlew, gradlew.bat and gradle/wrapper/gradle-wrapper.jar, Gradle 9.4.0 as gradle-wrapper.properties
-// names), copied into the Android project folder so `./gradlew` builds it with no Gradle installed.
-export function writeWrapper(directory: string): void {
+export type DependencyFiles = {
+  'buildscript-gradle.lockfile': string;
+  'app/buildscript-gradle.lockfile': string;
+  'app/gradle.lockfile': string;
+  'gradle/verification-metadata.xml': string;
+};
+const DEPENDENCY_PATHS: (keyof DependencyFiles)[] = ['buildscript-gradle.lockfile', 'app/buildscript-gradle.lockfile', 'app/gradle.lockfile', 'gradle/verification-metadata.xml'];
+function lockedDependencies(): DependencyFiles {
+  return Object.fromEntries(DEPENDENCY_PATHS.map(path => [path, readFileSync(new URL(`./dependencies/${path}`, import.meta.url), 'utf8')])) as DependencyFiles;
+}
+
+function validateDependencyFiles(files: Record<string, string>): void {
+  if (!files || typeof files !== 'object' || Array.isArray(files)) throw new SettingsError('dependencyFiles must be a complete file map');
+  for (const path of Object.keys(files)) if (!DEPENDENCY_PATHS.includes(path) || typeof files[path] !== 'string' || !files[path].trim() || /[\uD800-\uDFFF]/u.test(files[path])) throw new SettingsError(`invalid dependency file ${path}`);
+  for (const path of DEPENDENCY_PATHS) if (!(path in files)) throw new SettingsError(`missing dependency file ${path}`);
+  const coordinates = new Set<string>();
+  for (const path of DEPENDENCY_PATHS.filter(path => path.endsWith('.lockfile'))) {
+    const configurations = new Map<string, string>();
+    let emptySeen = false;
+    for (const line of files[path].split(/\r?\n/)) {
+      if (!line || line.startsWith('#')) continue;
+      const fields = line.split('=');
+      if (fields.length !== 2) throw new SettingsError(`invalid lock line in ${path}`);
+      const [coordinate, raw] = fields;
+      const names = raw ? raw.split(',') : [];
+      if (names.some(name => !/^[A-Za-z_][A-Za-z0-9_.-]*$/.test(name)) || new Set(names).size !== names.length) throw new SettingsError(`invalid lock configurations in ${path}`);
+      if (coordinate === 'empty') {
+        if (emptySeen) throw new SettingsError(`duplicate empty lock entry in ${path}`);
+        emptySeen = true;
+        continue;
+      }
+      if (!/^[^\s:=,]+:[^\s:=,]+:[^\s:=,+]+$/.test(coordinate) || !names.length) throw new SettingsError(`invalid locked coordinate in ${path}`);
+      const parts = coordinate.split(':');
+      for (const name of names) {
+        const key = parts.slice(0, 2).join(':') + ':' + name;
+        if (configurations.has(key)) throw new SettingsError(`duplicate locked configuration ${key}`);
+        configurations.set(key, parts[2]);
+      }
+      coordinates.add(coordinate);
+    }
+  }
+  const xml = files['gradle/verification-metadata.xml'];
+  if (/<!DOCTYPE|<!ENTITY/i.test(xml)) throw new SettingsError('invalid dependency verification document');
+  const reject = (message: string) => { throw new SettingsError(`invalid dependency verification document: ${message}`); };
+  const document = new DOMParser({ errorHandler: { warning: reject, error: reject, fatalError: reject } }).parseFromString(xml, 'application/xml');
+  const namespace = 'https://schema.gradle.org/dependency-verification';
+  const root = document.documentElement;
+  if (root?.localName !== 'verification-metadata' || root.namespaceURI !== namespace) reject('unexpected root');
+  const containers: any[] = Array.from(root.getElementsByTagNameNS(namespace, 'components'));
+  if (containers.length !== 1 || containers[0].parentNode !== root) reject('expected one components inventory');
+  const verified = new Set<string>();
+  const components: any[] = Array.from(containers[0].getElementsByTagNameNS(namespace, 'component'));
+  for (const component of components) {
+    if (component.parentNode !== containers[0]) reject('nested verification component');
+    const values = ['group', 'name', 'version'].map(name => component.getAttribute(name));
+    const coordinate = values.join(':');
+    if (values.some(value => !value) || verified.has(coordinate)) throw new SettingsError('invalid verification component');
+    const artifacts: any[] = Array.from(component.getElementsByTagNameNS(namespace, 'artifact'));
+    if (!artifacts.length || new Set(artifacts.map(artifact => artifact.getAttribute('name'))).size !== artifacts.length) throw new SettingsError(`invalid verification artifacts for ${coordinate}`);
+    for (const artifact of artifacts) {
+      if (artifact.parentNode !== component) reject('nested verification artifact');
+      const name = artifact.getAttribute('name');
+      if (!name || /[\\/]/.test(name) || name === '.' || name === '..') reject('invalid artifact name');
+      const hashes: any[] = Array.from(artifact.getElementsByTagNameNS(namespace, 'sha256'));
+      const additional: any[] = Array.from(artifact.getElementsByTagNameNS(namespace, 'also-trust'));
+      if (!hashes.length || hashes.some(hash => hash.parentNode !== artifact) || additional.some(hash => !hashes.includes(hash.parentNode)) || [...hashes, ...additional].some(hash => !/^[a-f0-9]{64}$/.test(hash.getAttribute('value')))) throw new SettingsError(`invalid checksum for ${name}`);
+    }
+    verified.add(coordinate);
+  }
+  for (const coordinate of coordinates) if (!verified.has(coordinate)) throw new SettingsError(`missing checksums for ${coordinate}`);
+}
+
+// Copy the Gradle wrapper and the exact dependency locks and checksums into the project.
+export function writeWrapper(directory: string, dependencyFiles: DependencyFiles = lockedDependencies()): void {
+  validateDependencyFiles(dependencyFiles);
   for (const path of ["gradlew", "gradlew.bat", "gradle/wrapper/gradle-wrapper.jar"]) {
     const target = join(directory, path);
     mkdirSync(dirname(target), { recursive: true });
     copyFileSync(new URL(`./wrapper/${path}`, import.meta.url), target);
   }
   chmodSync(join(directory, "gradlew"), 0o755);
+  writeAndroid(directory, dependencyFiles);
 }

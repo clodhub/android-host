@@ -74,6 +74,7 @@ test("the wrapper is copied with an executable gradlew", () => {
   const directory = mkdtempSync(join(tmpdir(), "android-wrapper-"));
   writeWrapper(directory);
   for (const path of ["gradlew", "gradlew.bat", "gradle/wrapper/gradle-wrapper.jar"]) assert.ok(statSync(join(directory, path)).size > 0, path);
+  for (const path of ["buildscript-gradle.lockfile", "app/buildscript-gradle.lockfile", "app/gradle.lockfile", "gradle/verification-metadata.xml"]) assert.ok(statSync(join(directory, path)).size > 0, path);
   assert.ok(statSync(join(directory, "gradlew")).mode & 0o100);
 });
 
@@ -139,7 +140,7 @@ test("the Kotlin check covers the same cases as the fixture", () => {
 test("consumer writes the project to disk", () => {
   const directory = mkdtempSync(join(tmpdir(), "android-host-"));
   const written = buildProject(directory, settings, options);
-  assert.equal(written.length, 9);
-  assert.deepEqual(readdirSync(directory).sort(), ["app", "build.gradle.kts", "gradle", "gradle.properties", "settings.gradle.kts"]);
+  assert.equal(written.length, 16);
+  assert.deepEqual(readdirSync(directory).sort(), ["app", "build.gradle.kts", "buildscript-gradle.lockfile", "gradle", "gradle.properties", "gradlew", "gradlew.bat", "settings.gradle.kts"]);
   assert.equal(readFileSync(join(directory, "app/build.gradle.kts"), "utf8"), files["app/build.gradle.kts"]);
 });

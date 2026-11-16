@@ -4,5 +4,5 @@ import type { AndroidShellSettings } from "./render.ts";
 export const androidHostSettings: AndroidShellSettings = {
   packageId: "{{packageId}}",
   applicationName: "{{applicationName}}",
-  minSdk: {{minSdk}},
+  minSdk: Number("{{minSdk}}"),
 };

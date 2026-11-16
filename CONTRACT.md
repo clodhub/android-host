@@ -44,6 +44,8 @@ Dependencies: none.
 ## Integration
 In an installed application, `settings` is `androidHostSettings` from the rendered `android/settings.ts`; `options.kotlinSerialization` applies the Kotlin serialization compiler plugin. At build time call `renderAndroid(settings, options)` from `android/render.ts` and write the result with `writeAndroid` into the Android project folder. `options.componentFolders` lists the folders of other components (each with `src/main/java` and optionally `src/main/res`) compiled into the application. In Kotlin subclass `ShellActivity`, override `palette`, `Content()` and optionally `permissions`, `language` and the lifecycle hooks (`examples/MainActivity.kt`). Call `writeWrapper` on the same folder to add `gradlew` and the wrapper jar, then build with `./gradlew assembleDebug`. `options.repositories` adds Maven repositories, `options.testDependencies` adds unit test dependencies, and `options.buildConfigStrings` adds `BuildConfig` strings that `./gradlew -P<property>=<value>` overrides. `examples/consumer.ts` writes the project without any game.
 
+`writeWrapper(directory, dependencyFiles)` writes the wrapper and a complete four-file dependency map. The default map is the standalone host's resolved inputs; applications with additional libraries supply their own complete map. Invalid syntax, missing files and checksum gaps fail before output creation.
+
 ## Visual definition and connected examples
 `visual/definition.json` maps its ports to the provided and required interfaces. `visual/examples/connected.json` connects the component to an illustrative application consumer. Both image formats and a text description are in `visual/output/`.
 

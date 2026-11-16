@@ -4,7 +4,16 @@ plugins {
     id("org.jetbrains.kotlin.plugin.compose")
 {{plugins}}}
 
-dependencyLocking { lockAllConfigurations() }
+buildscript {
+    configurations.named("classpath") {
+        resolutionStrategy.activateDependencyLocking()
+    }
+}
+
+dependencyLocking {
+    lockAllConfigurations()
+    lockMode.set(LockMode.STRICT)
+}
 
 // Version comes from the git tag in CI (-PversionName=1.2.3); local builds use 0.0.0-dev.
 val versionNameProp = (findProperty("versionName") as String?) ?: "0.0.0-dev"
