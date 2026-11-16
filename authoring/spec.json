@@ -1,6 +1,6 @@
 {
   "name": "android-host",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "title": "Android host",
   "description": "Android Compose application shell: one activity base class (theme, language, permissions, lifecycle) and the Gradle project, manifest and launcher icon rendered from typed settings.",
   "facilities": [
@@ -313,7 +313,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugAndroidTestCompileClasspath",
@@ -355,7 +355,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugRuntimeClasspath",
@@ -392,7 +392,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugAndroidTestCompileClasspath",
@@ -434,7 +434,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugAndroidTestCompileClasspath",
@@ -476,7 +476,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugAndroidTestCompileClasspath",
@@ -518,7 +518,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugAndroidTestCompileClasspath",
@@ -556,7 +556,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugAndroidTestCompileClasspath",
@@ -598,7 +598,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugRuntimeClasspath",
@@ -635,7 +635,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugRuntimeClasspath",
@@ -672,7 +672,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugAndroidTestCompileClasspath",
@@ -714,7 +714,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugRuntimeClasspath",
@@ -751,7 +751,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugAndroidTestCompileClasspath",
@@ -789,7 +789,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugAndroidTestCompileClasspath",
@@ -831,7 +831,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugAndroidTestCompileClasspath",
@@ -873,7 +873,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugAndroidTestCompileClasspath",
@@ -911,7 +911,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugAndroidTestCompileClasspath",
@@ -949,7 +949,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugAndroidTestCompileClasspath",
@@ -991,7 +991,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugAndroidTestCompileClasspath",
@@ -1033,7 +1033,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugAndroidTestCompileClasspath",
@@ -1071,7 +1071,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugAndroidTestCompileClasspath",
@@ -1109,7 +1109,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugAndroidTestCompileClasspath",
@@ -1151,7 +1151,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugAndroidTestCompileClasspath",
@@ -1189,7 +1189,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugAndroidTestCompileClasspath",
@@ -1231,7 +1231,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugAndroidTestCompileClasspath",
@@ -1269,7 +1269,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugAndroidTestCompileClasspath",
@@ -1311,7 +1311,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugAndroidTestCompileClasspath",
@@ -1353,7 +1353,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugAndroidTestCompileClasspath",
@@ -1391,7 +1391,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugAndroidTestCompileClasspath",
@@ -1433,7 +1433,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugAndroidTestCompileClasspath",
@@ -1471,7 +1471,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugAndroidTestCompileClasspath",
@@ -1513,7 +1513,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugAndroidTestCompileClasspath",
@@ -1551,7 +1551,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugAndroidTestCompileClasspath",
@@ -1589,7 +1589,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugAndroidTestCompileClasspath",
@@ -1631,7 +1631,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugAndroidTestCompileClasspath",
@@ -1673,7 +1673,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugAndroidTestCompileClasspath",
@@ -1711,7 +1711,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugAndroidTestCompileClasspath",
@@ -1753,7 +1753,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugAndroidTestCompileClasspath",
@@ -1791,7 +1791,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugAndroidTestCompileClasspath",
@@ -1833,7 +1833,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugAndroidTestCompileClasspath",
@@ -1871,7 +1871,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugAndroidTestCompileClasspath",
@@ -1913,7 +1913,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugAndroidTestCompileClasspath",
@@ -1951,7 +1951,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugAndroidTestCompileClasspath",
@@ -1993,7 +1993,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugAndroidTestCompileClasspath",
@@ -2031,7 +2031,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugAndroidTestCompileClasspath",
@@ -2069,7 +2069,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugAndroidTestCompileClasspath",
@@ -2107,7 +2107,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugRuntimeClasspath",
@@ -2144,7 +2144,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugAndroidTestCompileClasspath",
@@ -2186,7 +2186,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugAndroidTestCompileClasspath",
@@ -2228,7 +2228,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugAndroidTestCompileClasspath",
@@ -2270,7 +2270,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugRuntimeClasspath",
@@ -2307,7 +2307,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugRuntimeClasspath",
@@ -2344,7 +2344,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugRuntimeClasspath",
@@ -2381,7 +2381,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugRuntimeClasspath",
@@ -2418,7 +2418,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugRuntimeClasspath",
@@ -2455,7 +2455,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugRuntimeClasspath",
@@ -2492,7 +2492,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugRuntimeClasspath",
@@ -2529,7 +2529,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugRuntimeClasspath",
@@ -2566,7 +2566,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugAndroidTestCompileClasspath",
@@ -2608,7 +2608,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugAndroidTestCompileClasspath",
@@ -2646,7 +2646,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugRuntimeClasspath",
@@ -2683,7 +2683,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugAndroidTestCompileClasspath",
@@ -2725,7 +2725,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugRuntimeClasspath",
@@ -2762,7 +2762,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugRuntimeClasspath",
@@ -2799,7 +2799,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugAndroidTestCompileClasspath",
@@ -2841,7 +2841,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugAndroidTestCompileClasspath",
@@ -2883,7 +2883,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugAndroidTestCompileClasspath",
@@ -2921,7 +2921,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugAndroidTestCompileClasspath",
@@ -2963,7 +2963,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugAndroidTestCompileClasspath",
@@ -3001,7 +3001,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugAndroidTestCompileClasspath",
@@ -3039,7 +3039,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugAndroidTestCompileClasspath",
@@ -3081,7 +3081,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugRuntimeClasspath",
@@ -3118,7 +3118,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugAndroidTestCompileClasspath",
@@ -3160,7 +3160,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugAndroidTestCompileClasspath",
@@ -3198,7 +3198,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugAndroidTestCompileClasspath",
@@ -3240,7 +3240,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugRuntimeClasspath",
@@ -3277,7 +3277,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugRuntimeClasspath",
@@ -3314,7 +3314,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugAndroidTestCompileClasspath",
@@ -3356,7 +3356,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugAndroidTestCompileClasspath",
@@ -3398,7 +3398,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugAndroidTestCompileClasspath",
@@ -3436,7 +3436,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugAndroidTestCompileClasspath",
@@ -3474,7 +3474,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugRuntimeClasspath",
@@ -3511,7 +3511,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugRuntimeClasspath",
@@ -3548,7 +3548,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugAndroidTestCompileClasspath",
@@ -3590,7 +3590,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugAndroidTestCompileClasspath",
@@ -3632,7 +3632,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugAndroidTestCompileClasspath",
@@ -3670,7 +3670,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugRuntimeClasspath",
@@ -3707,7 +3707,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugAndroidTestCompileClasspath",
@@ -3745,7 +3745,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugRuntimeClasspath",
@@ -3782,7 +3782,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugRuntimeClasspath",
@@ -3819,7 +3819,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugRuntimeClasspath",
@@ -3856,7 +3856,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugAndroidTestCompileClasspath",
@@ -3898,7 +3898,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugRuntimeClasspath",
@@ -3935,7 +3935,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugRuntimeClasspath",
@@ -3968,7 +3968,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugRuntimeClasspath",
@@ -4005,7 +4005,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -4039,7 +4039,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "_internal-unified-test-platform-android-test-plugin-host-emulator-control"
@@ -4073,7 +4073,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -4107,7 +4107,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "_internal-unified-test-platform-android-device-provider-ddmlib"
@@ -4141,7 +4141,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -4175,7 +4175,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "_internal-unified-test-platform-android-device-provider-ddmlib"
@@ -4209,7 +4209,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -4243,7 +4243,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "_internal-unified-test-platform-android-test-plugin-host-additional-test-output"
@@ -4277,7 +4277,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -4311,7 +4311,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "_internal-unified-test-platform-android-test-plugin-host-apk-installer"
@@ -4345,7 +4345,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -4379,7 +4379,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "_internal-unified-test-platform-android-test-plugin-host-coverage"
@@ -4413,7 +4413,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "_internal-unified-test-platform-android-test-plugin-host-device-info"
@@ -4447,7 +4447,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "_internal-unified-test-platform-android-test-plugin-host-device-info"
@@ -4481,7 +4481,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -4515,7 +4515,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "_internal-unified-test-platform-android-test-plugin-host-emulator-control"
@@ -4549,7 +4549,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -4583,7 +4583,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "_internal-unified-test-platform-android-test-plugin-host-logcat"
@@ -4617,7 +4617,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -4651,7 +4651,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "_internal-unified-test-platform-android-test-plugin-result-listener-gradle"
@@ -4685,7 +4685,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "_internal-unified-test-platform-android-test-plugin-host-additional-test-output",
@@ -4721,7 +4721,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -4755,7 +4755,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -4789,7 +4789,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -4823,7 +4823,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "_internal-unified-test-platform-android-device-provider-ddmlib",
@@ -4863,7 +4863,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -4898,7 +4898,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "_internal-unified-test-platform-android-device-provider-ddmlib",
@@ -4942,7 +4942,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "_internal-unified-test-platform-android-device-provider-ddmlib",
@@ -4985,7 +4985,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "_internal-unified-test-platform-android-device-provider-ddmlib",
@@ -5028,7 +5028,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -5062,7 +5062,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "_internal-unified-test-platform-core"
@@ -5096,7 +5096,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -5130,7 +5130,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "_internal-unified-test-platform-android-driver-instrumentation",
@@ -5168,7 +5168,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -5202,7 +5202,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "_internal-unified-test-platform-android-device-provider-ddmlib",
@@ -5245,7 +5245,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "_internal-unified-test-platform-android-driver-instrumentation",
@@ -5282,7 +5282,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "_internal-unified-test-platform-android-device-provider-ddmlib",
@@ -5321,7 +5321,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -5356,7 +5356,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "_internal-unified-test-platform-android-driver-instrumentation",
@@ -5394,7 +5394,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -5429,7 +5429,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "_internal-unified-test-platform-android-driver-instrumentation",
@@ -5467,7 +5467,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -5502,7 +5502,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugRuntimeClasspath",
@@ -5540,7 +5540,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -5574,7 +5574,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "_internal-unified-test-platform-android-driver-instrumentation",
@@ -5611,7 +5611,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -5646,7 +5646,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "_internal-unified-test-platform-core"
@@ -5681,7 +5681,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "_internal-unified-test-platform-android-driver-instrumentation",
@@ -5721,7 +5721,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "_internal-unified-test-platform-android-driver-instrumentation",
@@ -5759,7 +5759,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -5794,7 +5794,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "_internal-unified-test-platform-android-device-provider-ddmlib",
@@ -5839,7 +5839,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "_internal-unified-test-platform-android-device-provider-ddmlib",
@@ -5880,7 +5880,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "_internal-unified-test-platform-android-driver-instrumentation",
@@ -5915,7 +5915,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "_internal-unified-test-platform-android-test-plugin"
@@ -5949,7 +5949,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -5983,7 +5983,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "_internal-unified-test-platform-core"
@@ -6017,7 +6017,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "_internal-unified-test-platform-android-test-plugin-host-additional-test-output",
@@ -6056,7 +6056,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -6091,7 +6091,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "kotlinInternalAbiValidation"
@@ -6125,7 +6125,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "_internal-unified-test-platform-core"
@@ -6159,7 +6159,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -6193,7 +6193,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "_internal-unified-test-platform-core"
@@ -6227,7 +6227,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -6261,7 +6261,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "_internal-unified-test-platform-core"
@@ -6295,7 +6295,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -6329,7 +6329,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -6363,7 +6363,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "_internal-unified-test-platform-core"
@@ -6397,7 +6397,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -6431,7 +6431,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "_internal-unified-test-platform-core"
@@ -6465,7 +6465,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -6499,7 +6499,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "_internal-unified-test-platform-core"
@@ -6533,7 +6533,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -6567,7 +6567,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "_internal-unified-test-platform-core"
@@ -6601,7 +6601,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "_internal-unified-test-platform-core"
@@ -6635,7 +6635,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -6669,7 +6669,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -6704,7 +6704,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -6739,7 +6739,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "_internal-unified-test-platform-core"
@@ -6774,7 +6774,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -6809,7 +6809,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "_internal-unified-test-platform-core"
@@ -6844,7 +6844,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -6879,7 +6879,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "_internal-unified-test-platform-core"
@@ -6914,7 +6914,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -6949,7 +6949,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "_internal-unified-test-platform-core"
@@ -6984,7 +6984,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -7019,7 +7019,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "_internal-unified-test-platform-core"
@@ -7054,7 +7054,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -7089,7 +7089,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "_internal-unified-test-platform-core"
@@ -7124,7 +7124,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -7159,7 +7159,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "_internal-unified-test-platform-core"
@@ -7194,7 +7194,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -7229,7 +7229,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "_internal-unified-test-platform-core"
@@ -7264,7 +7264,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -7299,7 +7299,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "_internal-unified-test-platform-core"
@@ -7334,7 +7334,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -7369,7 +7369,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "_internal-unified-test-platform-core"
@@ -7404,7 +7404,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -7439,7 +7439,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "_internal-unified-test-platform-core"
@@ -7473,7 +7473,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "_internal-unified-test-platform-core"
@@ -7507,7 +7507,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "_internal-unified-test-platform-android-test-plugin-host-additional-test-output",
@@ -7545,7 +7545,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "_internal-unified-test-platform-core"
@@ -7579,7 +7579,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -7613,7 +7613,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -7648,7 +7648,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -7682,7 +7682,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -7716,7 +7716,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -7751,7 +7751,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -7785,7 +7785,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "_internal-unified-test-platform-android-driver-instrumentation",
@@ -7822,7 +7822,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -7857,7 +7857,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "_internal-unified-test-platform-core"
@@ -7892,7 +7892,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -7926,7 +7926,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -7960,7 +7960,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "kotlinInternalAbiValidation"
@@ -7994,7 +7994,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "composeMappingProducerClasspath"
@@ -8028,7 +8028,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -8062,7 +8062,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "kotlinBuildToolsApiClasspath",
@@ -8097,7 +8097,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "kotlinBuildToolsApiClasspath",
@@ -8132,7 +8132,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "kotlinBuildToolsApiClasspath",
@@ -8167,7 +8167,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "kotlinBuildToolsApiClasspath",
@@ -8203,7 +8203,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -8237,7 +8237,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "kotlin-extension",
@@ -8276,7 +8276,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -8310,7 +8310,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "kotlinBuildToolsApiClasspath",
@@ -8346,7 +8346,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "kotlinInternalAbiValidation"
@@ -8380,7 +8380,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "kotlinKlibCommonizerClasspath"
@@ -8414,7 +8414,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "kotlinInternalAbiValidation"
@@ -8448,7 +8448,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "kotlinBuildToolsApiClasspath",
@@ -8484,7 +8484,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "_internal-unified-test-platform-android-device-provider-ddmlib",
@@ -8529,7 +8529,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "kotlinBuildToolsApiClasspath",
@@ -8565,7 +8565,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "_internal-unified-test-platform-android-test-plugin",
@@ -8600,7 +8600,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "_internal-unified-test-platform-android-driver-instrumentation",
@@ -8635,7 +8635,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "_internal-unified-test-platform-android-device-provider-ddmlib",
@@ -8672,7 +8672,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "_internal-unified-test-platform-android-driver-instrumentation",
@@ -8709,7 +8709,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -8743,7 +8743,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "_internal-unified-test-platform-android-driver-instrumentation",
@@ -8780,7 +8780,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -8814,7 +8814,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "_internal-unified-test-platform-android-test-plugin",
@@ -8849,7 +8849,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "_internal-unified-test-platform-android-driver-instrumentation",
@@ -8884,7 +8884,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "composeMappingProducerClasspath"
@@ -8918,7 +8918,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "_internal-unified-test-platform-android-device-provider-ddmlib",
@@ -8959,7 +8959,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugAndroidTestCompileClasspath",
@@ -9005,7 +9005,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -9039,7 +9039,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "_internal-unified-test-platform-android-driver-instrumentation",
@@ -9078,7 +9078,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "_internal-unified-test-platform-android-driver-instrumentation",
@@ -9113,7 +9113,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugAndroidTestCompileClasspath",
@@ -9155,7 +9155,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "_internal-unified-test-platform-android-device-provider-ddmlib",
@@ -9196,7 +9196,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -9226,7 +9226,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "_internal-unified-test-platform-android-device-provider-ddmlib",
@@ -9271,7 +9271,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "kotlinBuildToolsApiClasspath",
@@ -9307,7 +9307,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -9341,7 +9341,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "_internal-unified-test-platform-android-device-provider-ddmlib",
@@ -9380,7 +9380,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -9410,7 +9410,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugAndroidTestCompileClasspath",
@@ -9448,7 +9448,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugAndroidTestCompileClasspath",
@@ -9490,7 +9490,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugAndroidTestCompileClasspath",
@@ -9528,7 +9528,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -9562,7 +9562,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "_internal-unified-test-platform-android-device-provider-ddmlib",
@@ -9616,7 +9616,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "debugAndroidTestCompileClasspath",
@@ -9658,7 +9658,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "composeMappingProducerClasspath"
@@ -9692,7 +9692,7 @@
         "digest": "ee9d380febbf310d7a183b5d0ac49c70cb1fc239d3e9d57b5ab004c156ce85fe",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "composeMappingProducerClasspath"
@@ -9726,7 +9726,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -9760,7 +9760,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -9794,7 +9794,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -9824,7 +9824,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -9858,7 +9858,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -9892,7 +9892,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -9926,7 +9926,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -9960,7 +9960,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -9994,7 +9994,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -10028,7 +10028,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -10062,7 +10062,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -10096,7 +10096,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -10130,7 +10130,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -10164,7 +10164,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -10198,7 +10198,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -10232,7 +10232,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -10266,7 +10266,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -10300,7 +10300,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -10334,7 +10334,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -10368,7 +10368,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -10402,7 +10402,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -10436,7 +10436,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -10470,7 +10470,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -10504,7 +10504,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -10538,7 +10538,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -10572,7 +10572,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -10606,7 +10606,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -10640,7 +10640,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -10674,7 +10674,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -10708,7 +10708,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -10742,7 +10742,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -10776,7 +10776,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -10810,7 +10810,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -10846,7 +10846,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -10880,7 +10880,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -10914,7 +10914,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -10949,7 +10949,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -10984,7 +10984,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -11018,7 +11018,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -11052,7 +11052,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -11086,7 +11086,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -11121,7 +11121,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -11156,7 +11156,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -11191,7 +11191,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -11227,7 +11227,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -11263,7 +11263,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -11298,7 +11298,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -11333,7 +11333,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -11367,7 +11367,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -11403,7 +11403,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -11438,7 +11438,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -11473,7 +11473,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -11508,7 +11508,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -11542,7 +11542,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -11576,7 +11576,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -11611,7 +11611,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -11645,7 +11645,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -11681,7 +11681,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -11717,7 +11717,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -11751,7 +11751,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -11785,7 +11785,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -11815,7 +11815,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -11845,7 +11845,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -11875,7 +11875,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -11909,7 +11909,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -11943,7 +11943,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -11977,7 +11977,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -12011,7 +12011,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -12045,7 +12045,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -12079,7 +12079,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -12113,7 +12113,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -12147,7 +12147,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -12181,7 +12181,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -12215,7 +12215,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -12249,7 +12249,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -12283,7 +12283,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -12317,7 +12317,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -12351,7 +12351,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -12385,7 +12385,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -12419,7 +12419,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -12453,7 +12453,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -12487,7 +12487,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -12521,7 +12521,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -12555,7 +12555,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -12589,7 +12589,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -12623,7 +12623,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -12658,7 +12658,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -12692,7 +12692,7 @@
         "digest": "fc0f1f56fe2879961ead8f4201896bc522cb1409dd779fac6b84fbcce51ee093",
         "verification": {
           "path": "implementation/android/dependencies/gradle/verification-metadata.xml",
-          "digest": "32d919ab0104ca58cb0c22fddd0abc7a98900d074ee92157ad28c7e18c46ba4d"
+          "digest": "20344b9986fcc1cc190400a6a464cb028017fc0307c7db9c2096cce028daa08f"
         },
         "configurations": [
           "classpath"
@@ -14210,5 +14210,85 @@
   "modules": {
     "server": "server/index.ts",
     "android": "android/src/main/java"
+  },
+  "toolchains": {
+    "android": [
+      {
+        "name": "java",
+        "versionRange": ">=17.0.0 <27.0.0",
+        "probe": [
+          "java",
+          "-version"
+        ],
+        "install": {
+          "macos": [
+            "brew",
+            "install",
+            "--cask",
+            "temurin"
+          ],
+          "windows": [
+            "winget",
+            "install",
+            "--exact",
+            "--id",
+            "EclipseAdoptium.Temurin.21.JDK"
+          ],
+          "linux": [
+            "sudo",
+            "apt-get",
+            "install",
+            "--yes",
+            "openjdk-21-jdk"
+          ]
+        },
+        "manual": null
+      },
+      {
+        "name": "sdkmanager",
+        "versionRange": ">=22.0.0 <23.0.0",
+        "probe": [
+          "sdkmanager",
+          "--version"
+        ],
+        "install": {
+          "macos": [
+            "brew",
+            "install",
+            "--cask",
+            "android-commandlinetools"
+          ],
+          "windows": null,
+          "linux": null
+        },
+        "manual": "Install the Android command-line tools 22.0 (version 23 replaces sdkmanager): on Windows and Linux unpack https://dl.google.com/android/repository/commandlinetools-win-15859902_latest.zip (linux in place of win) as cmdline-tools/latest in the SDK folder and put its bin folder on PATH. Set ANDROID_HOME to the SDK folder, then run sdkmanager --licenses, accept every licence, and run sdkmanager \"platform-tools\" \"platforms;android-36\" \"build-tools;36.0.0\"."
+      }
+    ],
+    "server": [
+      {
+        "name": "node",
+        "versionRange": ">=26.5.0 <27.0.0",
+        "probe": [
+          "node",
+          "--version"
+        ],
+        "install": {
+          "macos": [
+            "brew",
+            "install",
+            "node"
+          ],
+          "windows": [
+            "winget",
+            "install",
+            "--exact",
+            "--id",
+            "OpenJS.NodeJS"
+          ],
+          "linux": null
+        },
+        "manual": "Without the package manager, install Node 26 from nodejs.org (the installer, or the zip or tar archive with its folder put first on PATH); on Linux also from the NodeSource repository."
+      }
+    ]
   }
 }
