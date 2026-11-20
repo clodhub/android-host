@@ -51,7 +51,7 @@ test("manifest has the permissions, the activity and the label placeholder", () 
 
 test("the Kotlin serialization plugin is applied only when asked for", () => {
   assert.match(renderAndroid(settings, { ...options, kotlinSerialization: true })["app/build.gradle.kts"], /\n    id\("org.jetbrains.kotlin.plugin.serialization"\)\n\}/);
-  assert.match(files["build.gradle.kts"], /id\("org.jetbrains.kotlin.plugin.serialization"\) version "2.3.20" apply false/);
+  assert.match(files["build.gradle.kts"], /id\("org.jetbrains.kotlin.plugin.serialization"\) version "2.4.21" apply false/);
 });
 
 test("settings.ts is rendered by aepm at install from every setting", { skip: !existsSync(new URL("../component.json", import.meta.url)) && "component.json is not in this copy" }, () => {
