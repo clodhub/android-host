@@ -6,7 +6,7 @@ The Android side of an application: one Compose activity base class (`ShellActiv
 Facilities: `android-shell` (Android Compose application shell).
 
 ## User inputs
-The installer collects `packageId` (lower-case words separated by dots), `applicationName` and `minSdk` (default 26). Render options (not collected) name component source folders, extra Gradle dependencies, permissions, orientation, the activity class and the signing variable prefix.
+The installer collects `packageId` (required), the application's unique identifier on Google Play, lower-case words separated by dots such as `app.ourapps.ourpoker`; `applicationName` (required), the name shown under the icon, letters, digits, spaces and hyphens such as `OurPoker`; and `minSdk`, the oldest Android version the app installs on, as an Android API level (whole number from 21 to 36; default 26, which is Android 8.0). Render options (not collected) name component source folders, extra Gradle dependencies, permissions, orientation, the activity class and the signing variable prefix.
 
 - `packageId` (string, qualified; required)
 - `applicationName` (string, label; required)
