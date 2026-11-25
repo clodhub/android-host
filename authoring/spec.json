@@ -1,6 +1,6 @@
 {
   "name": "android-host",
-  "version": "0.10.0",
+  "version": "0.11.0",
   "title": "Android host",
   "description": "Android Compose application shell: one activity base class (theme, language, permissions, lifecycle) and the Gradle project, manifest and launcher icon rendered from typed settings.",
   "facilities": [
@@ -51,10 +51,10 @@
   ],
   "dependencies": [],
   "tools": {
-    "node": "26.5.0",
-    "python3": "3.12.8",
-    "kotlinc": "2.2.0",
-    "java": "26.0.1"
+    "node": "26.5",
+    "python3": "3.12",
+    "kotlinc": "2.2",
+    "java": "26.0"
   },
   "platforms": [
     "android",
@@ -69,7 +69,7 @@
         "tests/render.test.ts"
       ],
       "tools": {
-        "node": "26.5.0"
+        "node": "26.5"
       }
     },
     {
@@ -80,9 +80,9 @@
         "android"
       ],
       "tools": {
-        "python3": "3.12.8",
-        "kotlinc": "2.2.0",
-        "java": "26.0.1"
+        "java": "26.0",
+        "kotlinc": "2.2",
+        "python3": "3.12"
       },
       "scope": "platform",
       "fixtures": [
@@ -99,18 +99,18 @@
     "scenarios": "A portrait phone application asks for camera and microphone at start and is told whether they were granted; a language picked in the application takes effect when the activity is recreated; with no pick the phone's language is used, falling back to English.",
     "updates": "Patch updates replace the owned files; render the project again after each update, keeping any hand-edited Gradle files out of the rendered set. Removal deletes the owned sources and the rendered project files. No application data is held."
   },
-  "agentInstructions": "Select `ourapps-ae/android-host` when the recipe's targets include `android`. Connect the `theme` requirement so the application can build its `ShellPalette`. Set `packageId`, `applicationName` and optionally `minSdk`; list the other components' `android` folders in the render options.",
+  "agentInstructions": "Select `clodhub/android-host` when the recipe's targets include `android`. Connect the `theme` requirement so the application can build its `ShellPalette`. Set `packageId`, `applicationName` and optionally `minSdk`; list the other components' `android` folders in the render options.",
   "developerInstructions": "Supply the Android SDK location (`local.properties`, never packaged), a release keystore by reference through the signing environment variables, the application's Kotlin sources, string resources and any art. Run the render step and `writeWrapper`, then `./gradlew assembleRelease -PversionName=<version>`. Replace the placeholder launcher icon drawables with the application's artwork.",
   "classes": [
     {
       "reference": {
-        "name": "ourapps-ae/android-host-class",
+        "name": "clodhub/android-host-class",
         "version": "1.1.0",
-        "digest": "9292637ff0488bee0156210518fe20355d0d0854c4dbcbff214f030d9dbd55a3"
+        "digest": "18a73e59e9348c62521579110b8f07111ff05a4d208635e5c02380fdc96b5cfa"
       },
       "descriptor": {
         "format": 2,
-        "name": "ourapps-ae/android-host-class",
+        "name": "clodhub/android-host-class",
         "version": "1.1.0",
         "title": "Android host",
         "summary": "An Android application project rendered from the application's files, with locked dependencies",
@@ -158,7 +158,7 @@
         "inventory": [
           {
             "path": "classes/android-host-class/android-shell.json",
-            "digest": "e90552b94c435fcdd6885c9745e6fae90031b1a0ca5509ddbbff703dd3063d7f"
+            "digest": "0a76d5cc882cbe2b5b4a3b07d7f04fec698dadfc60b49692705fb3a3f1373625"
           },
           {
             "path": "classes/android-host-class/check.mjs",
@@ -198,9 +198,9 @@
   ],
   "implements": [
     {
-      "name": "ourapps-ae/android-host-class",
+      "name": "clodhub/android-host-class",
       "version": "1.1.0",
-      "digest": "9292637ff0488bee0156210518fe20355d0d0854c4dbcbff214f030d9dbd55a3"
+      "digest": "18a73e59e9348c62521579110b8f07111ff05a4d208635e5c02380fdc96b5cfa"
     }
   ],
   "upstream": [
@@ -13922,10 +13922,10 @@
     "owners": [
       "Level N Ltd"
     ],
-    "contact": "https://github.com/ourapps-ae/android-host/issues",
-    "repository": "https://github.com/ourapps-ae/android-host",
+    "contact": "https://github.com/clodhub/android-host/issues",
+    "repository": "https://github.com/clodhub/android-host",
     "updates": {
-      "source": "https://github.com/ourapps-ae/android-host/releases",
+      "source": "https://github.com/clodhub/android-host/releases",
       "strategy": "manual"
     }
   },

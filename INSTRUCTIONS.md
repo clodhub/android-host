@@ -1,9 +1,9 @@
 # Android host instructions
 
 ## For the agent
-Select `ourapps-ae/android-host` when the recipe's targets include `android`. Connect the `theme` requirement so the application can build its `ShellPalette`. Set `packageId`, `applicationName` and optionally `minSdk`; list the other components' `android` folders in the render options.
+Select `clodhub/android-host` when the recipe's targets include `android`. Connect the `theme` requirement so the application can build its `ShellPalette`. Set `packageId`, `applicationName` and optionally `minSdk`; list the other components' `android` folders in the render options.
 
-- Select package `ourapps-ae/android-host` version `0.10.0`.
+- Select package `clodhub/android-host` version `0.11.0`.
 - Settings to configure:
   - `packageId` (string, qualified; required)
   - `applicationName` (string, label; required)
@@ -22,4 +22,4 @@ From the component directory:
 
 - `node --test tests/render.test.ts` (render, required-local; tools: node 26.5)
 - `python3 tests/native.py android` (android, platform; tools: python3 3.12, kotlinc 2.2, java 26.0)
-- `python3 -m aepm review <digest> --store STORE --policy POLICY --trusted --allow-network` checks an archive fetched with `python3 -m aepm fetch ourapps-ae/android-host@VERSION --store STORE --from https://ourapps.app` and runs its suites.
+- `python3 -m aepm review <digest> --store STORE --policy POLICY --trusted --allow-network` checks an archive fetched with `python3 -m aepm fetch clodhub/android-host@VERSION --store STORE --from https://clodhub.com` and runs its suites.
