@@ -1,4 +1,4 @@
-package ae.androidhost
+package com.clodhub.androidhost
 
 // Picks the language the text is in: the exact tag if supported, else its base language, else the fallback.
 fun resolveLanguage(requested: String, supported: List<String>, fallback: String): String {

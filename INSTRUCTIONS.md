@@ -1,15 +1,15 @@
 # Android host instructions
 
 ## For the agent
-Select `clodhub/android-host` when the recipe's targets include `android`. Connect the `theme` requirement so the application can build its `ShellPalette`. Set `packageId`, `applicationName` and optionally `minSdk`; list the other components' `android` folders in the render options.
+Select `pkg:clod/com.clodhub/android-host` when the recipe's targets include `android`. Connect the `theme` requirement so the application can build its `ShellPalette`. Set `packageId`, `applicationName` and optionally `minSdk`; list the other components' `android` folders in the render options.
 
-- Select package `clodhub/android-host` version `0.11.0`.
+- Select package `pkg:clod/com.clodhub/android-host` version `0.12.0`.
 - Settings to configure:
   - `packageId` (string, qualified; required)
   - `applicationName` (string, label; required)
   - `minSdk` (integer; optional; default `26`)
-- Connect the provided `android-shell` (ae/android-shell 1.0.0) to the consumer that needs it.
-- Supply `theme` (ae/theme 1.0.0) from the component that provides it.
+- Connect the provided `android-shell` (com.clodhub/android-shell 1.0.0) to the consumer that needs it.
+- Supply `theme` (com.clodhub/theme 1.0.0) from the component that provides it.
 - No accounts or keys are needed.
 
 ## For the developer
@@ -22,4 +22,4 @@ From the component directory:
 
 - `node --test tests/render.test.ts` (render, required-local; tools: node 26.5)
 - `python3 tests/native.py android` (android, platform; tools: python3 3.12, kotlinc 2.2, java 26.0)
-- `python3 -m aepm review <digest> --store STORE --policy POLICY --trusted --allow-network` checks an archive fetched with `python3 -m aepm fetch clodhub/android-host@VERSION --store STORE --from https://clodhub.com` and runs its suites.
+- `python3 -m clod review <digest> --store STORE --policy POLICY --trusted --allow-network` checks an archive fetched with `python3 -m clod fetch android-host@VERSION --store STORE --from https://clodhub.com` and runs its suites.

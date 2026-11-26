@@ -7,19 +7,19 @@
   "focus": "component",
   "definitions": [
     {
-      "id": "clodhub.android-host",
+      "id": "com.clodhub.android-host",
       "name": "Android host",
       "kind": "component",
       "status": "example",
-      "package": "clodhub/android-host",
-      "version": "0.11.0",
+      "package": "pkg:clod/com.clodhub/android-host",
+      "version": "0.12.0",
       "ports": [
         {
           "id": "theme",
           "name": "Theme",
           "direction": "input",
           "kind": "interface",
-          "type": "ae/theme",
+          "type": "com.clodhub/theme",
           "version": "1.0.0",
           "required": true,
           "cardinality": "one"
@@ -29,7 +29,7 @@
           "name": "Android shell",
           "direction": "output",
           "kind": "interface",
-          "type": "ae/android-shell",
+          "type": "com.clodhub/android-shell",
           "version": "1.0.0"
         }
       ],
@@ -70,7 +70,7 @@
           "name": "Android shell",
           "direction": "input",
           "kind": "interface",
-          "type": "ae/android-shell",
+          "type": "com.clodhub/android-shell",
           "version": "1.0.0",
           "required": true,
           "cardinality": "one"
@@ -80,7 +80,7 @@
           "name": "Theme",
           "direction": "output",
           "kind": "interface",
-          "type": "ae/theme",
+          "type": "com.clodhub/theme",
           "version": "1.0.0"
         }
       ],
@@ -91,7 +91,7 @@
     {
       "id": "component",
       "name": "Android host",
-      "definition": "clodhub.android-host",
+      "definition": "com.clodhub.android-host",
       "configuration": {
         "packageId": "example",
         "applicationName": "example"

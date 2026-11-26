@@ -1,4 +1,4 @@
-package ae.androidhost
+package com.clodhub.androidhost
 
 import android.content.Context
 import android.content.pm.PackageManager

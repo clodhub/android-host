@@ -1,6 +1,6 @@
-import ae.androidhost.chooseLanguage
-import ae.androidhost.parseColour
-import ae.androidhost.resolveLanguage
+import com.clodhub.androidhost.chooseLanguage
+import com.clodhub.androidhost.parseColour
+import com.clodhub.androidhost.resolveLanguage
 
 fun main() {
     val supported = listOf("en", "fr", "de", "es")

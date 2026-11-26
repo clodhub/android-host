@@ -3,9 +3,9 @@ package app.example.demo
 import android.Manifest
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
-import ae.androidhost.ShellActivity
-import ae.androidhost.ShellLanguage
-import ae.androidhost.ShellPalette
+import com.clodhub.androidhost.ShellActivity
+import com.clodhub.androidhost.ShellLanguage
+import com.clodhub.androidhost.ShellPalette
 
 // Run time: the application's one activity; the shell handles the window, theme, language and permissions.
 class MainActivity : ShellActivity() {

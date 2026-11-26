@@ -54,7 +54,7 @@ test("the Kotlin serialization plugin is applied only when asked for", () => {
   assert.match(files["build.gradle.kts"], /id\("org.jetbrains.kotlin.plugin.serialization"\) version "2.4.21" apply false/);
 });
 
-test("settings.ts is rendered by aepm at install from every setting", { skip: !existsSync(new URL("../component.json", import.meta.url)) && "component.json is not in this copy" }, () => {
+test("settings.ts is rendered by clod at install from every setting", { skip: !existsSync(new URL("../component.json", import.meta.url)) && "component.json is not in this copy" }, () => {
   const manifest = JSON.parse(readFileSync(new URL("../component.json", import.meta.url), "utf8"));
   assert.deepEqual(manifest.artefacts.find((item: { source: string }) => item.source === "implementation/android/settings.ts"),
     { source: "implementation/android/settings.ts", destination: "components/android-host/android/settings.ts", template: true, executable: false });

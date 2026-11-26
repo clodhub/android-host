@@ -17,11 +17,11 @@ The installer collects `packageId` (required), the application's unique identifi
 
 - `implementation/android/language.ts` -> `components/android-host/android/language.ts`
 - `implementation/android/render.ts` -> `components/android-host/android/render.ts`
-- `implementation/android/settings.ts` -> `components/android-host/android/settings.ts` (template: aepm renders `androidHostSettings` from the three settings)
-- `implementation/android/src/main/java/ae/androidhost/LanguageChoice.kt` -> `components/android-host/android/src/main/java/ae/androidhost/LanguageChoice.kt`
-- `implementation/android/src/main/java/ae/androidhost/ShellActivity.kt` -> `components/android-host/android/src/main/java/ae/androidhost/ShellActivity.kt`
-- `implementation/android/src/main/java/ae/androidhost/ShellLanguage.kt` -> `components/android-host/android/src/main/java/ae/androidhost/ShellLanguage.kt`
-- `implementation/android/src/main/java/ae/androidhost/ShellPalette.kt` -> `components/android-host/android/src/main/java/ae/androidhost/ShellPalette.kt`
+- `implementation/android/settings.ts` -> `components/android-host/android/settings.ts` (template: clod renders `androidHostSettings` from the three settings)
+- `implementation/android/src/main/java/com/clodhub/androidhost/LanguageChoice.kt` -> `components/android-host/android/src/main/java/com/clodhub/androidhost/LanguageChoice.kt`
+- `implementation/android/src/main/java/com/clodhub/androidhost/ShellActivity.kt` -> `components/android-host/android/src/main/java/com/clodhub/androidhost/ShellActivity.kt`
+- `implementation/android/src/main/java/com/clodhub/androidhost/ShellLanguage.kt` -> `components/android-host/android/src/main/java/com/clodhub/androidhost/ShellLanguage.kt`
+- `implementation/android/src/main/java/com/clodhub/androidhost/ShellPalette.kt` -> `components/android-host/android/src/main/java/com/clodhub/androidhost/ShellPalette.kt`
 - `implementation/android/templates/AndroidManifest.xml.template` -> `components/android-host/android/templates/AndroidManifest.xml.template`
 - `implementation/android/templates/app.build.gradle.kts.template` -> `components/android-host/android/templates/app.build.gradle.kts.template`
 - `implementation/android/templates/app/src/main/res/drawable/ic_launcher_background.xml.template` -> `components/android-host/android/templates/app/src/main/res/drawable/ic_launcher_background.xml.template`
@@ -36,10 +36,10 @@ Dependencies: none.
 `tools.lock.json` pins verification tools: node 26.5, python3 3.12, kotlinc 2.2, java 26.0. Licence wording remains deferred.
 
 ## Provided interfaces
-- `interfaces/android-shell.json` defines `android-shell` (ae/android-shell) version 1.0.0 as an OpenRPC 1.3.2 document. Methods tagged `typescript` are the build-time functions of `android/render.ts` and `android/language.ts` (`renderAndroid`, `writeAndroid`, `writeWrapper`, `validateSettings`, `resolveLanguage`, `chooseLanguage`); methods tagged `kotlin` are the public Kotlin API of package `ae.androidhost` (`resolveLanguage`, `chooseLanguage`, `parseColour`, `ShellPalette.toColorScheme`, `ShellActivity`, `ShellLanguage` and its methods). Parameters and results are JSON Schema 2020-12; Android values with no JSON form (Context, composables, callbacks) are described by name. `SettingsError` is listed where a setting breaks its grammar.
+- `interfaces/android-shell.json` defines `android-shell` (com.clodhub/android-shell) version 1.0.0 as an OpenRPC 1.3.2 document. Methods tagged `typescript` are the build-time functions of `android/render.ts` and `android/language.ts` (`renderAndroid`, `writeAndroid`, `writeWrapper`, `validateSettings`, `resolveLanguage`, `chooseLanguage`); methods tagged `kotlin` are the public Kotlin API of package `com.clodhub.androidhost` (`resolveLanguage`, `chooseLanguage`, `parseColour`, `ShellPalette.toColorScheme`, `ShellActivity`, `ShellLanguage` and its methods). Parameters and results are JSON Schema 2020-12; Android values with no JSON form (Context, composables, callbacks) are described by name. `SettingsError` is listed where a setting breaks its grammar.
 
 ## Required interfaces
-- `theme` (ae/theme) version 1.0.0, supplied by the recipe or application. `interfaces/required-theme.json` is a copy of the theme component's interface document; android-host uses theme `ThemeSet.palette()` for the `ShellPalette`.
+- `theme` (com.clodhub/theme) version 1.0.0, supplied by the recipe or application. `interfaces/required-theme.json` is a copy of the theme component's interface document; android-host uses theme `ThemeSet.palette()` for the `ShellPalette`.
 
 ## Integration
 In an installed application, `settings` is `androidHostSettings` from the rendered `android/settings.ts`; `options.kotlinSerialization` applies the Kotlin serialization compiler plugin. At build time call `renderAndroid(settings, options)` from `android/render.ts` and write the result with `writeAndroid` into the Android project folder. `options.componentFolders` lists the folders of other components (each with `src/main/java` and optionally `src/main/res`) compiled into the application. In Kotlin subclass `ShellActivity`, override `palette`, `Content()` and optionally `permissions`, `language` and the lifecycle hooks (`examples/MainActivity.kt`). Call `writeWrapper` on the same folder to add `gradlew` and the wrapper jar, then build with `./gradlew assembleDebug`. `options.repositories` adds Maven repositories, `options.testDependencies` adds unit test dependencies, and `options.buildConfigStrings` adds `BuildConfig` strings that `./gradlew -P<property>=<value>` overrides. `examples/consumer.ts` writes the project without any game.

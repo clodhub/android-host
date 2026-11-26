@@ -1,4 +1,4 @@
-package ae.androidhost
+package com.clodhub.androidhost
 
 // Colours as 0xAARRGGBB numbers, so they come from a theme without any Android type.
 data class ShellPalette(

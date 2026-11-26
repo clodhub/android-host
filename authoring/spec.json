@@ -1,6 +1,7 @@
 {
   "name": "android-host",
-  "version": "0.11.0",
+  "version": "0.12.0",
+  "sourceRevision": "19905b75dbea89fbfd424d67fe26c81aaed0e018",
   "title": "Android host",
   "description": "Android Compose application shell: one activity base class (theme, language, permissions, lifecycle) and the Gradle project, manifest and launcher icon rendered from typed settings.",
   "facilities": [
@@ -12,7 +13,7 @@
   "provides": [
     {
       "id": "android-shell",
-      "type": "ae/android-shell",
+      "type": "com.clodhub/android-shell",
       "version": "1.0.0",
       "path": "interfaces/android-shell.json"
     }
@@ -20,7 +21,7 @@
   "requires": [
     {
       "id": "theme",
-      "type": "ae/theme",
+      "type": "com.clodhub/theme",
       "version": "1.0.0",
       "path": "interfaces/required-theme.json"
     }
@@ -99,18 +100,18 @@
     "scenarios": "A portrait phone application asks for camera and microphone at start and is told whether they were granted; a language picked in the application takes effect when the activity is recreated; with no pick the phone's language is used, falling back to English.",
     "updates": "Patch updates replace the owned files; render the project again after each update, keeping any hand-edited Gradle files out of the rendered set. Removal deletes the owned sources and the rendered project files. No application data is held."
   },
-  "agentInstructions": "Select `clodhub/android-host` when the recipe's targets include `android`. Connect the `theme` requirement so the application can build its `ShellPalette`. Set `packageId`, `applicationName` and optionally `minSdk`; list the other components' `android` folders in the render options.",
+  "agentInstructions": "Select `pkg:clod/com.clodhub/android-host` when the recipe's targets include `android`. Connect the `theme` requirement so the application can build its `ShellPalette`. Set `packageId`, `applicationName` and optionally `minSdk`; list the other components' `android` folders in the render options.",
   "developerInstructions": "Supply the Android SDK location (`local.properties`, never packaged), a release keystore by reference through the signing environment variables, the application's Kotlin sources, string resources and any art. Run the render step and `writeWrapper`, then `./gradlew assembleRelease -PversionName=<version>`. Replace the placeholder launcher icon drawables with the application's artwork.",
   "classes": [
     {
       "reference": {
-        "name": "clodhub/android-host-class",
+        "name": "pkg:clod/com.clodhub/android-host-class",
         "version": "1.1.0",
-        "digest": "18a73e59e9348c62521579110b8f07111ff05a4d208635e5c02380fdc96b5cfa"
+        "digest": "5220d508e20add44761d9e1c07febafa4eace36f059325c87cab1c422b3445ae"
       },
       "descriptor": {
-        "format": 2,
-        "name": "clodhub/android-host-class",
+        "format": 3,
+        "name": "pkg:clod/com.clodhub/android-host-class",
         "version": "1.1.0",
         "title": "Android host",
         "summary": "An Android application project rendered from the application's files, with locked dependencies",
@@ -118,7 +119,7 @@
         "presentation": "none",
         "provides": [
           {
-            "type": "ae/android-shell",
+            "type": "com.clodhub/android-shell",
             "version": "1.0.0",
             "path": "classes/android-host-class/android-shell.json",
             "modules": {
@@ -133,7 +134,7 @@
         ],
         "requires": [
           {
-            "type": "ae/theme",
+            "type": "com.clodhub/theme",
             "version": "1.0.0"
           }
         ],
@@ -158,7 +159,7 @@
         "inventory": [
           {
             "path": "classes/android-host-class/android-shell.json",
-            "digest": "0a76d5cc882cbe2b5b4a3b07d7f04fec698dadfc60b49692705fb3a3f1373625"
+            "digest": "880c40ee4abd29ff7fa193bc4b5ddb3971c077d67b4ab08d5398769985aba75d"
           },
           {
             "path": "classes/android-host-class/check.mjs",
@@ -166,7 +167,7 @@
           },
           {
             "path": "classes/android-host-class/runtime.mjs",
-            "digest": "7440f3891614c423f74668cb5a2445fea58bbfa4d7c740c8e8a855d1d9300d43"
+            "digest": "1d85f0dae92d5c6c859cd48a4211a933718ae3e168554a2b00806183c4b661f0"
           }
         ],
         "verification": [
@@ -198,9 +199,9 @@
   ],
   "implements": [
     {
-      "name": "clodhub/android-host-class",
+      "name": "pkg:clod/com.clodhub/android-host-class",
       "version": "1.1.0",
-      "digest": "18a73e59e9348c62521579110b8f07111ff05a4d208635e5c02380fdc96b5cfa"
+      "digest": "5220d508e20add44761d9e1c07febafa4eace36f059325c87cab1c422b3445ae"
     }
   ],
   "upstream": [
@@ -249,7 +250,7 @@
       "version": "0.8.15",
       "revision": "b5b8fb5b579ae1183b34e74b3bc39d7eb50a226a",
       "repository": "https://github.com/xmldom/xmldom.git",
-      "purl": "pkg:npm/@xmldom/xmldom@0.8.15",
+      "purl": "pkg:npm/%40xmldom/xmldom@0.8.15",
       "licence": "MIT",
       "notices": [
         "implementation/android/vendor/xmldom/LICENSE"
@@ -12452,7 +12453,7 @@
     },
     "dependencies": [
       {
-        "name": "pkg:npm/@xmldom/xmldom",
+        "name": "pkg:npm/%40xmldom/xmldom",
         "version": "0.8.15",
         "isolation": "isolated"
       },
